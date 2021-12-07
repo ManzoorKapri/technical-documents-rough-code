@@ -1,5 +1,3 @@
-This code is about solved assignment by freecodecamp.org
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,18 +7,41 @@ This code is about solved assignment by freecodecamp.org
     <title>Documentation page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<style>
-*{
+    <style>
+    *{
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100vw;
+nav {
+    padding: 10px 10px;
+}
+h1{
+    margin-top: 45px;
+    font-size:5vw;
+}
+#navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+  
+   
+  
 }
 
+a{
+    padding: 10px;
+}
+.nav-top{
+    right: 50%;
+    padding: 20px 10px ;
+    border: 1px solid gray;
+}
+
+
+
 #nav-links{
-    float: right;
+    float: left;
     padding:  10px;
     margin: 10px;
     text-decoration: none;
@@ -30,14 +51,28 @@ body{
     flex-direction: row-reverse;
 }
 
+
+#main-doc{
+    width: 100%;
+
+}
+
+p{
+    font-size:2vw;
+}
+
+li{
+    list-style: none;
+}
+
 @media (min-width: 800px) {
     #navbar{
         display: flex;
     }
     
-}
-</style>
-    <nav id="navbar">
+}</style>
+<body>
+    <nav id="navbar" class="nav-top">
         <header>
             text technical Documentation
         </header>
@@ -54,7 +89,7 @@ body{
         </a>
     </nav>
     <main id="main-doc">
-    Technical Documentation
+   <h1>Technical Documentation</h1> 
 
     <section class="main-section" id="topic1">
         <header>
